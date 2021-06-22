@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripcion" content="Bar Cafe Pinot & Bistro Palermo">
+    <meta name="keywords" content="Bar, cafe, palermo, comida">
+    <title>Cafe Pinot & Bistro</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <h1>Cafe Pinot & Bistro </h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav menuNav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="modal" data-target="#reservas" href="#reservas"> Reservas</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Modal -->
+    <div class="modal fade" id="reservas" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Reservas Cafe Pinot & Bistro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+                    <form class="d-flex flex-column">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Nombre completo</label>
+                            <input class="w-100 border rounded" type="email" id="exampleFormControlInput1">
+                        </div>
+
+                        <div class="form-group d-flex flex-column my-2">
+                            <label for="exampleFormControlInput1">Telefono de Contacto</label>
+                            <input class="border rounded" type="telefono" id="exampleFormControlInput1">
+                        </div>
+
+                        <select class="form-control form-control-sm my-4 w-100 rounded">
+                            <option>Horario de reserva</option>
+                            <option>12:30 a 14:30</option>
+                            <option>14:30 a 16:00</option>
+                            <option>20:00 a 21:30</option>
+                            <option>21:30 a 23:00</option>
+                        </select>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Comentarios</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
+
+                    <div class="modal-footer d-flex justify-content-center pt-3">
+                        <button class="btn btn-warning" type="button" data-dismiss="modal">
+                            Enviar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <main>
+
+        <!--Menu del Bar-->
+
+        <section>
+
+            <div class="container">
+
+                <div class="menu__Pinot">
+
+                    <div class="row">
+                        <div class="col-12 col-md-3">
+                            <button type="button" class="btn btn-outline-dark"><a
+                                    href="desayuno.html">Desayuno</button></a>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <button type="button" class="btn btn-outline-dark"> <a href="almuerzo.html">
+                                    Almuerzo</button> </a>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <button type="button" class="btn btn-outline-dark"> <a href="merienda.html">
+                                    Merienda</button> </a>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <button type="button" class="btn btn-outline-dark"> <a href="cena.html">
+                                    Cena</button> </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section>
+            <div class="container">
+                <div class="fotos__Home">
+                    <div class="row">
+                        <div class="col-12 col-md-6 pr-md-0">
+                            <img src="fotos/cafe1.jpg" alt="cafe1" width="100%">
+                        </div>
+
+                        <div class="col-12 col-md-6 pl-md-0">
+                            <img src="fotos/cafe2.jpg" alt="cafe2" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <article>
+            <!--Historia del Bar-->
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12">
+                        <p class="hisToria">
+                            Presente desde 1904 en el barrio de Palermo, el edificio de Café Pinot recupera el
+                            espíritu
+                            bohemio de los artistas del barrio y la camaradería de sus vecinos. Fue declarado
+                            Notable
+                            por el
+                            Ministerio de Cultura de la Ciudad de Buenos Aires y Sitio de Interés Cultural por la
+                            Legislatura Porteña.
+
+                            Desde comienzos del siglo XX la esquina estuvo signada por la presencia de comercios
+                            gastronómicos: fue bombonería, restaurante, fábrica de pastas y confitería.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <p class="hisToria">
+                            Recibimos a nuestros clientes con alegría y generamos un entorno genial, para pasar
+                            tiempo
+                            con
+                            amigos,
+                            trabajar, escuchar música encontrar cosas lindas y divertidas; y sobre todo…
+                            COMER MUY RICO!
+                            Tratamos de ser creativos todo el tiempo, en lo que proponemos: nuestros locales,
+                            nuestra
+                            comunicación, nuestro packaging y nuestros platos; mezclamos esos ingredientes que nadie
+                            se
+                            anima a
+                            mezclar y por eso creamos sabores únicos. Vení a probarlos!
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </article>
+
+    </main>
+
+    <footer>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">® Cafe Pinot & Bistro</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="footer__terminos">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Términos y Condiciones <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Política de Reembolsos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#reservas"> Política de Privacidad</a>
+                        </li>
+                    </ul>
+
+                    <div class="redes__sociales">
+                        <a href="https://www.instagram.com/pinotcafe_/" target="_blank" class="footer__redes">
+                            <img src="fotos/instragram2.png" alt="instagram" height="25px" width="40px">
+                        </a>
+
+                        <a href="https://www.google.com/maps/place/Gral.+Lucio+Norberto+Mansilla+3802,+C1425+BQB,+Buenos+Aires/@-34.5898963,-58.417019,21z/data=!4m5!3m4!1s0x95bcca807bbbd4bd:0x6ca908cdfdc08b5f!8m2!3d-34.5898887!4d-58.4169122?hl=es"
+                            target="_blank" class="footer__redes">
+                            <img src="fotos/mapa2.png" alt="mapa" height="25px" width="30px">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

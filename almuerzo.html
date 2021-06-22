@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripcion" content="Bar Cafe Pinot & Bistro Palermo">
+    <meta name="keywords" content="Bar, cafe, palermo, comida">
+    <title>Cafe Pinot & Bistro</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/carta.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <h1>Cafe Pinot & Bistro </h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav menuNav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="modal" data-target="#reservas" href="#reservas"> Reservas</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Modal -->
+    <div class="modal fade" id="reservas" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Reservas Cafe Pinot & Bistro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+                    <form class="d-flex flex-column">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Nombre completo</label>
+                            <input class="w-100 border rounded" type="email" id="exampleFormControlInput1">
+                        </div>
+
+                        <div class="form-group d-flex flex-column my-2">
+                            <label for="exampleFormControlInput1">Telefono de Contacto</label>
+                            <input class="border rounded" type="telefono" id="exampleFormControlInput1">
+                        </div>
+
+                        <select class="form-control form-control-sm my-4 w-100 rounded">
+                            <option>Horario de reserva</option>
+                            <option>12:30 a 14:30</option>
+                            <option>14:30 a 16:00</option>
+                            <option>20:00 a 21:30</option>
+                            <option>21:30 a 23:00</option>
+                        </select>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Comentarios</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
+
+                    <div class="modal-footer d-flex justify-content-center pt-3">
+                        <button class="btn btn-warning" type="button" data-dismiss="modal">
+                            Enviar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <main>
+
+        <!--Menu del Bar-->
+
+        <section>
+
+            <div class="container">
+
+                <div class="menu__Pinot">
+
+                    <div class="row">
+                        <div class="col-12 col-md-3">
+                            <button type="button" class="btn btn-outline-dark"><a
+                                    href="desayuno.html">Desayuno</button></a>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <button type="button" class="btn btn-outline-dark"> <a href="almuerzo.html">
+                                    Almuerzo</button> </a>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <button type="button" class="btn btn-outline-dark"> <a href="merienda.html">
+                                    Merienda</button> </a>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <button type="button" class="btn btn-outline-dark"> <a href="cena.html">
+                                    Cena</button> </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--Carta-->
+        <section>
+            <div class="container">
+
+                <div class="carta__Pinot">
+
+                    <div class="row">
+
+                        <div class="col-12 el-coontenedor">
+
+                            <div class="card shadow m-3" style="width: 18rem;">
+                                <img src="../Final/fotos/almuerzo.JPG" class="card-img-top" alt="hamburguesaclasica"
+                                    width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hamburguesa Clásica</h5>
+                                    <p class="card-text">Lechuga, tomate y Queso</p>
+                                    <a href="#" class="btn btn-primary botonPrecio">$520</a>
+                                </div>
+                            </div>
+
+                            <div class="card shadow m-3" style="width: 18rem;">
+                                <img src="../Final/fotos/almuerzo1.JPG" class="card-img-top" alt="hamburguesaitaliana"
+                                    width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hamburguesa Italia</h5>
+                                    <p class="card-text">Panceta, queso, huevo, rúcula </p>
+                                    <a href="#" class="btn btn-primary botonPrecio">$570</a>
+                                </div>
+                            </div>
+
+
+                            <div class="card shadow m-3" style="width: 18rem;">
+                                <img src="../Final/fotos/almuerzo2.JPG" class="card-img-top" alt="fucciles"
+                                    width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fucciles al fierrito</h5>
+                                    <p class="card-text">Fucciles al fierrito</p>
+                                    <a href="#" class="btn btn-primary botonPrecio">$610</a>
+                                </div>
+                            </div>
+
+                            <div class="card shadow m-3" style="width: 18rem;">
+                                <img src="../Final/fotos/almuerzo3.JPG" class="card-img-top" alt="spaghettisitalianos"
+                                    width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">Spaghettis italianos</h5>
+                                    <p class="card-text">Spaghettis con salsa roja</p>
+                                    <a href="#" class="btn btn-primary botonPrecio">$480</a>
+                                </div>
+                            </div>
+
+                            <div class="card shadow m-3" style="width: 18rem;">
+                                <img src="../Final/fotos/almuerzo4.JPG" class="card-img-top" alt="Ñoquis" width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ñoquis</h5>
+                                    <p class="card-text">Ñoquis de papa</p>
+                                    <a href="#" class="btn btn-primary botonPrecio">$510</a>
+                                </div>
+                            </div>
+
+                            <div class="card shadow m-3" style="width: 18rem;">
+                                <img src="../Final/fotos/almuerzo5.JPG" class="card-img-top" alt="ravioles"
+                                    width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ravioles caseros</h5>
+                                    <p class="card-text">Ravioles caseros de ricota y verdura </p>
+                                    <a href="#" class="btn btn-primary botonPrecio">$590</a>
+                                </div>
+                            </div>
+
+                            <div class="card shadow m-3" style="width: 18rem;">
+                                <img src="../Final/fotos/almuerzo6.JPG" class="card-img-top" alt="omeletteschampignon"
+                                    width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">Omelettes Champignon</h5>
+                                    <p class="card-text">Omelettes con Champignon</p>
+                                    <a href="#" class="btn btn-primary botonPrecio">$530</a>
+                                </div>
+                            </div>
+
+                            <div class="card shadow m-3" style="width: 18rem;">
+                                <img src="../Final/fotos/almuerzo7.JPG" class="card-img-top" alt="omelettesjyq"
+                                    width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">Omelettes Champignon Jamon y Queso</h5>
+                                    <p class="card-text">Omelettes Champignon Jamon y Queso con hojas verdes</p>
+                                    <a href="#" class="btn btn-primary botonPrecio">$460</a>
+                                </div>
+                            </div>
+
+                            <div class="card shadow m-3" style="width: 18rem;">
+                                <img src="../Final/fotos/almuerzo8.JPG" class="card-img-top" alt="pizzarucula"
+                                    width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizzeta Rúcula</h5>
+                                    <p class="card-text">Pizzeta con Rúcula y Parmesa </p>
+                                    <a href="#" class="btn btn-primary botonPrecio">$440</a>
+                                </div>
+                            </div>
+
+                            <div class="card shadow m-3" style="width: 18rem;">
+                                <img src="../Final/fotos/cena.JPG" class="card-img-top" alt="pechugapinot" width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pechuga Pinot</h5>
+                                    <p class="card-text">Champ + panceta + espinaca</p>
+                                    <a href="#" class="btn btn-primary botonPrecio">$730</a>
+                                </div>
+                            </div>
+
+                            <div class="card shadow m-3" style="width: 18rem;">
+                                <img src="../Final/fotos/cena1.JPG" class="card-img-top" alt="suprema" width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">Suprema napolitana</h5>
+                                    <p class="card-text">c/ guarnición a elección</p>
+                                    <a href="#" class="btn btn-primary botonPrecio">$620</a>
+                                </div>
+                            </div>
+
+                            <div class="card shadow m-3" style="width: 18rem;">
+                                <img src="../Final/fotos/cena2.JPG" class="card-img-top" alt="pechugachampignon"
+                                    width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pechuga al champignon</h5>
+                                    <p class="card-text">c/ papas rusticas</p>
+                                    <a href="#" class="btn btn-primary botonPrecio">$710</a>
+                                </div>
+                            </div>
+
+                            <div class="card shadow m-3" style="width: 18rem;">
+                                <img src="../Final/fotos/cena3.JPG" class="card-img-top" alt="lomo" width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lomo al champignon</h5>
+                                    <p class="card-text">c/ noisete</p>
+                                    <a href="#" class="btn btn-primary botonPrecio">$990</a>
+                                </div>
+                            </div>
+
+                            <div class="card shadow m-3" style="width: 18rem;">
+                                <img src="../Final/fotos/cena4.JPG" class="card-img-top" alt="bifechorizo" width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bife de chorizo</h5>
+                                    <p class="card-text">c/ fritas o hojas verdes</p>
+                                    <a href="#" class="btn btn-primary botonPrecio">$940</a>
+                                </div>
+                            </div>
+
+                            <div class="card shadow m-3" style="width: 18rem;">
+                                <img src="../Final/fotos/cena5.JPG" class="card-img-top" alt="lomomostaza" width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lomo a la mostaza</h5>
+                                    <p class="card-text">c/ rusticas</p>
+                                    <a href="#" class="btn btn-primary botonPrecio">$960</a>
+                                </div>
+                            </div>
+
+                            <div class="card shadow m-3" style="width: 18rem;">
+                                <img src="../Final/fotos/cena6.JPG" class="card-img-top" alt="bondiolamiel"
+                                    width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bondiola a la miel y mostaza</h5>
+                                    <p class="card-text">c/ mix de papas y batata</p>
+                                    <a href="#" class="btn btn-primary botonPrecio">$670</a>
+                                </div>
+                            </div>
+
+                            <div class="card shadow m-3" style="width: 18rem;">
+                                <img src="../Final/fotos/cena7.JPG" class="card-img-top" alt="bondiolaplancha"
+                                    width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bondiola a la plancha</h5>
+                                    <p class="card-text">c/ guarnición</p>
+                                    <a href="#" class="btn btn-primary botonPrecio">$580</a>
+                                </div>
+                            </div>
+
+                            <div class="card shadow m-3" style="width: 18rem;">
+                                <img src="../Final/fotos/cena8.JPG" class="card-img-top" alt="matambre" width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">Matambrito a la provenzal</h5>
+                                    <p class="card-text">c/ guarnición</p>
+                                    <a href="#" class="btn btn-primary botonPrecio">$690</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">® Cafe Pinot & Bistro</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="footer__terminos">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Términos y Condiciones <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Política de Reembolsos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#reservas"> Política de Privacidad</a>
+                        </li>
+                    </ul>
+
+                    <div class="redes__sociales">
+                        <a href="https://www.instagram.com/pinotcafe_/" target="_blank" class="footer__redes">
+                            <img src="fotos/instragram2.png" alt="instagram" height="25px" width="40px">
+                        </a>
+
+                        <a href="https://www.google.com/maps/place/Gral.+Lucio+Norberto+Mansilla+3802,+C1425+BQB,+Buenos+Aires/@-34.5898963,-58.417019,21z/data=!4m5!3m4!1s0x95bcca807bbbd4bd:0x6ca908cdfdc08b5f!8m2!3d-34.5898887!4d-58.4169122?hl=es"
+                            target="_blank" class="footer__redes">
+                            <img src="fotos/mapa2.png" alt="mapa" height="25px" width="30px">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

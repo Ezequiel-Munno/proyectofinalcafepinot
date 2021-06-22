@@ -1,0 +1,101 @@
+@import "variales.scss";
+@import "mixins.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.navbar-collapse {
+
+    @include navbar-collapse;
+
+}
+
+.menu__Pinot {
+    
+    @include menu__Pinot;
+
+}
+
+.contacto {
+    margin-top: 40px;
+    text-align: center;
+
+    .contacto__diReccion {
+
+        margin-bottom: 40px;
+    }
+}
+
+
+/*FORMUALRIO*/
+
+.forMulario{
+    text-align: center;
+}
+
+input,
+textarea {
+    padding: 5px;
+    border: 2px solid $black;
+    margin-bottom: 30px;
+    
+}
+
+.geNero{
+    margin-top: 30px;
+}
+
+.newsLetter {
+
+    margin-top: 30px;
+}
+
+input[type="submit"] {
+    margin-bottom: 0;
+    background: $grey;
+    color: $white;
+    border: none;
+}
+
+input[type="reset"] {
+    margin-bottom: 0;
+    background: $grey;
+    color: $white;
+    border: none;
+    margin-bottom: 50px;
+
+}
+
+input[type="reset"]:hover {
+    background-color: $blue;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: $blue;
+    font-weight: bold;
+}
+
+//*----*/
+
+footer {
+    margin-top: 20px;
+    height: 75px;
+
+}
+
+.footer__terminos {
+
+    @include footer__terminos;
+}
+
+.redes__sociales {
+
+    text-align: center;
+
+}

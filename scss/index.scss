@@ -1,0 +1,48 @@
+@import "variales.scss";
+@import "mixins.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.navbar-collapse {
+
+    @include navbar-collapse;
+}
+
+.menu__Pinot{
+   
+    @include menu__Pinot;
+}
+
+.fotos__Home {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hisToria {
+    text-align: justify;
+
+}
+
+footer {
+    margin-top: 20px;
+    height: 75px;
+
+}
+
+.footer__terminos {
+
+   @include footer__terminos;
+}
+
+.redes__sociales {
+
+    text-align: center;
+
+}

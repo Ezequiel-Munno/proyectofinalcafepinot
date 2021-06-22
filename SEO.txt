@@ -1,0 +1,41 @@
+SEO en el archivo 
+
+
+Index.html con las siguientes caracteristicas:
+
+-Titulo: en la etiqueta titulo, agregue el nombre de mi sitio y la seccion
+-Palabras clave: mediante la etiqueta meta, use descripcion de mi pagina ("Bar Cafe Pinot & Bistro Palermo"), 
+		 keywords con palabras clave que buscan los usuarios("Bar, cafe, palermo, comida")
+
+
+Desayuno.html con las siguientes caracteristicas:
+
+-Titulo: en la etiqueta titulo, agregue el nombre de mi sitio y la seccion
+-Palabras clave: mediante la etiqueta meta, use descripcion de mi pagina ("Bar Cafe Pinot & Bistro Menu Desayuno"), 
+		 keywords con palabras clave que buscan los usuarios("Bar, cafe, palermo, comida, desayuno")
+
+
+Almuerzo.html con las siguientes caracteristicas:
+
+-Titulo: en la etiqueta titulo, agregue el nombre de mi sitio y la seccion
+-Palabras clave: mediante la etiqueta meta, use descripcion de mi pagina ("Bar Cafe Pinot & Bistro Menu Almuerzo"), 
+		 keywords con palabras clave que buscan los usuarios("Bar, cafe, palermo, comida, almuerzo")
+
+Merienda.html con las siguientes caracteristicas:
+
+-Titulo: en la etiqueta titulo, agregue el nombre de mi sitio y la seccion
+-Palabras clave: mediante la etiqueta meta, use descripcion de mi pagina ("Bar Cafe Pinot & Bistro Menu Merienda"), 
+		 keywords con palabras clave que buscan los usuarios("Bar, cafe, palermo, comida, merienda")
+
+Cena.html con las siguientes caracteristicas:
+
+-Titulo: en la etiqueta titulo, agregue el nombre de mi sitio y la seccion
+-Palabras clave: mediante la etiqueta meta, use descripcion de mi pagina ("Bar Cafe Pinot & Bistro Menu Cena"), 
+		 keywords con palabras clave que buscan los usuarios("Bar, cafe, palermo, comida, cena")
+
+
+Contacto.html con las siguientes caracteristicas:
+
+-Titulo: en la etiqueta titulo, agregue el nombre de mi sitio y la seccion
+-Palabras clave: mediante la etiqueta meta, use descripcion de mi pagina ("Bar Cafe Pinot & Bistro Contacto"), 
+		 keywords con palabras clave que buscan los usuarios("Bar, cafe, palermo, contacto, ubicacion")

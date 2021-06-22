@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+.navbar-collapse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.menu__Pinot {
+  background-color: #FFFEFE;
+  margin-top: 20px;
+}
+
+.menu__Pinot .btn {
+  padding: 12px;
+  width: 100%;
+  background-color: #FF5555;
+  border-radius: 3px;
+}
+
+.menu__Pinot .btn a {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 20px;
+}
+
+.contacto {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.contacto .contacto__diReccion {
+  margin-bottom: 40px;
+}
+
+/*FORMUALRIO*/
+.forMulario {
+  text-align: center;
+}
+
+input,
+textarea {
+  padding: 5px;
+  border: 2px solid #000;
+  margin-bottom: 30px;
+}
+
+.geNero {
+  margin-top: 30px;
+}
+
+.newsLetter {
+  margin-top: 30px;
+}
+
+input[type="submit"] {
+  margin-bottom: 0;
+  background: grey;
+  color: #ffff;
+  border: none;
+}
+
+input[type="reset"] {
+  margin-bottom: 0;
+  background: grey;
+  color: #ffff;
+  border: none;
+  margin-bottom: 50px;
+}
+
+input[type="reset"]:hover {
+  background-color: #1668c4;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: #1668c4;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 20px;
+  height: 75px;
+}
+
+.footer__terminos {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.footer__terminos a {
+  font-size: 10px;
+}
+
+.redes__sociales {
+  text-align: center;
+}
+/*# sourceMappingURL=contacto.css.map */

@@ -1,0 +1,42 @@
+@import "variales.scss";
+
+
+@mixin navbar-collapse {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+@mixin menu__Pinot{
+    background-color: $white2;
+    margin-top: 20px;
+    
+    .btn{
+
+        padding: 12px;
+        width: 100%;
+        background-color: $red;
+        border-radius: 3px;
+
+        a{
+            text-decoration: none;
+            color: $white;
+            font-size: 20px;
+            
+        }
+    } 
+}
+
+
+@mixin footer__terminos {
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    a {
+        font-size: 10px;
+    }
+}

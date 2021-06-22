@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripcion" content="Bar Cafe Pinot & Bistro Palermo">
+    <meta name="keywords" content="Bar, cafe, palermo, comida">
+    <title>Cafe Pinot & Bistro</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <h1>Cafe Pinot & Bistro </h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav menuNav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="modal" data-target="#reservas" href="#reservas"> Reservas</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Modal -->
+    <div class="modal fade" id="reservas" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Reservas Cafe Pinot & Bistro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+                    <form class="d-flex flex-column">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Nombre completo</label>
+                            <input class="w-100 border rounded" type="email" id="exampleFormControlInput1">
+                        </div>
+
+                        <div class="form-group d-flex flex-column my-2">
+                            <label for="exampleFormControlInput1">Telefono de Contacto</label>
+                            <input class="border rounded" type="telefono" id="exampleFormControlInput1">
+                        </div>
+
+                        <select class="form-control form-control-sm my-4 w-100 rounded">
+                            <option>Horario de reserva</option>
+                            <option>12:30 a 14:30</option>
+                            <option>14:30 a 16:00</option>
+                            <option>20:00 a 21:30</option>
+                            <option>21:30 a 23:00</option>
+                        </select>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Comentarios</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
+
+                    <div class="modal-footer d-flex justify-content-center pt-3">
+                        <button class="btn btn-warning" type="button" data-dismiss="modal">
+                            Enviar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <main>
+
+        <!--Menu del Bar-->
+
+        <section>
+
+            <div class="container">
+
+                <div class="menu__Pinot">
+
+                    <div class="row">
+                        <div class="col-12 col-md-3">
+                            <button type="button" class="btn btn-outline-dark"><a
+                                    href="desayuno.html">Desayuno</button></a>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <button type="button" class="btn btn-outline-dark"> <a href="almuerzo.html">
+                                    Almuerzo</button> </a>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <button type="button" class="btn btn-outline-dark"> <a href="merienda.html">
+                                    Merienda</button> </a>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <button type="button" class="btn btn-outline-dark"> <a href="cena.html">
+                                    Cena</button> </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <div class="container">
+
+            <article class="contacto">
+                <h2 class="contacto__titulo">Contacto</h2>
+
+                <div class="contacto__diReccion"> Podes contactarnos al 4822-0888 de Lunes a Domingos de 08hs a 23.30hs.
+                    <br>
+                    Mansilla 3802, Palermo, CABA. <br>
+                    Pinot.Cafe@hotmail.com
+                </div>
+            </article>
+        </div>
+
+
+        <section>
+
+            <div class="container forMulario">
+                <h3>Formulario de Contacto</h3>
+
+                <form action="name">
+
+                    <p>
+                        <label for="Nombre"></label>
+                        <input type="text" name="nombre" placeholder="Nombre">
+
+                    </p>
+
+                    <p>
+                        <label for="Apellido"></label>
+                        <input type="text" name="apellido" placeholder="Apellido">
+
+                    </p>
+
+                    <p>
+                        <label for="E-mail"></label>
+                        <input type="email" name="e-mail" placeholder="E-mail">
+
+                    </p>
+
+                    <div>
+                        <table width="100%" cellpading="0" cellspacing="0">
+                            <tr>
+                                <td>
+
+
+                                    <fieldset>
+                                        <legend><strong>Promedio de Edad</strong></legend>
+                                        <input type="checkbox" value="20-30"> 20-30
+                                        <input type="checkbox" value="30-40"> 30-40
+                                        <input type="checkbox" value="40-50"> 40-50
+                                        <input type="checkbox" value="mayor de 50"> Mayor de 50
+
+
+                                    </fieldset>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+
+                    <p class="geNero">
+                        <label for="Genero"></label>
+                        <select name="Genero" id="">
+                            <option value="Soltero">Soltero/a</option>
+                            <option value="Soltero">Casado/a</option>
+                            <option value="Soltero">Divorciado/a</option>
+
+                        </select>
+
+                    </p>
+
+                    <p class="newsLetter">
+                        <i>
+                            <h4>¿Desea recibir el Newsletter? <input type="checkbox" name="acepta"></h4>
+                        </i>
+
+                    </p>
+
+                    <p>
+                        <label for="Coment"></label>
+                        <textarea name="Coment" id="" cols="30" rows="10" placeholder="Comentarios"></textarea>
+
+                    </p>
+
+                    <p>
+                        <input type="reset" value="Limpiar Formulario">
+                        <input type="submit" value="Enviar Formulario">
+                    </p>
+
+                </form>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">® Cafe Pinot & Bistro</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="footer__terminos">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Términos y Condiciones <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Política de Reembolsos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#reservas"> Política de Privacidad</a>
+                        </li>
+                    </ul>
+
+                    <div class="redes__sociales">
+                        <a href="https://www.instagram.com/pinotcafe_/" target="_blank" class="footer__redes">
+                            <img src="fotos/instragram2.png" alt="instagram" height="25px" width="40px">
+                        </a>
+
+                        <a href="https://www.google.com/maps/place/Gral.+Lucio+Norberto+Mansilla+3802,+C1425+BQB,+Buenos+Aires/@-34.5898963,-58.417019,21z/data=!4m5!3m4!1s0x95bcca807bbbd4bd:0x6ca908cdfdc08b5f!8m2!3d-34.5898887!4d-58.4169122?hl=es"
+                            target="_blank" class="footer__redes">
+                            <img src="fotos/mapa2.png" alt="mapa" height="25px" width="30px">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

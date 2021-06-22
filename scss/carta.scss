@@ -1,0 +1,80 @@
+@import "variales.scss";
+@import "mixins.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.navbar-collapse {
+
+    @include navbar-collapse;
+
+}
+
+/**menu del bar **/
+.menu__Pinot {
+    
+    @include menu__Pinot;
+
+}
+
+/**Carta del bar **/
+.carta__Pinot {
+    
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+
+    .card {
+        width: 100%;
+        height: 350px;
+        position: relative;
+
+        .botonPrecio {
+            position: absolute;
+            left: 10px;
+            bottom: 10px;
+        }
+ 
+        .card-img-top {
+
+            width: 100%;
+            height: 150px;
+
+        }
+
+    }
+
+    .el-coontenedor{
+        text-align: center;
+        
+        .card{
+            display: inline-block;
+            width:300px;
+            vertical-align: middle
+        }
+    }
+
+}
+
+
+footer {
+    margin-top: 20px;
+    height: 75px;
+
+}
+
+.footer__terminos {
+
+    @include footer__terminos;
+}
+
+.redes__sociales {
+
+    text-align: center;
+
+}
