@@ -78,3 +78,11 @@ footer {
     text-align: center;
 
 }
+
+img{
+
+    &:hover {
+        opacity: 0.6;
+
+    }
+}

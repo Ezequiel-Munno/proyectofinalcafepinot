@@ -29,12 +29,12 @@
   width: 100%;
   background-color: #FF5555;
   border-radius: 3px;
+  color: #ffff;
 }
 
-.menu__Pinot .btn a {
+.menu__Pinot a {
   text-decoration: none;
-  color: #ffff;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .contacto {

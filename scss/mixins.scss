@@ -9,24 +9,25 @@
 
 }
 
-@mixin menu__Pinot{
+@mixin menu__Pinot {
     background-color: $white2;
     margin-top: 20px;
-    
-    .btn{
+
+    .btn {
 
         padding: 12px;
         width: 100%;
         background-color: $red;
         border-radius: 3px;
+        color: $white;
+    }
 
-        a{
-            text-decoration: none;
-            color: $white;
-            font-size: 20px;
-            
-        }
-    } 
+    a {
+        text-decoration: none;
+        font-size: 40px;
+
+
+    }
 }
 
 
